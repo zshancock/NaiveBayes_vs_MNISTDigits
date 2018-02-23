@@ -3,6 +3,8 @@
 ## input value. Could have definitely read in the data without a function, but I 
 ## was learning function syntax. 
 
+install.packages("stringr")
+library("stringr")
 
 # Create the function to read the states .csv file from a specified URL #
 
