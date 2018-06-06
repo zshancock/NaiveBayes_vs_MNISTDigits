@@ -7,7 +7,7 @@ I used RStudio Version 1.1.383 with R version 3.4.3.
 
 **Summary of Contents:**
 
-*Introduction to RStudio*
+*Introduction to RStudio - IST 687 Coursework*
 >Progression of skills in data manipulation, data frame creation, creating functions and ggplot. Most of the datasets 
 >used were public or built into R. 
 
