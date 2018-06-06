@@ -6,8 +6,8 @@
 ## Value of 0 meant pixel was very white, and 255 was very dark. 
 
 ## Data was originally analyzed with all 0-255 analyzed as factors, but the model was very slow in processing,
-## so the data was discretized into only "white" or "black" pixels, and increased processing times while
-## maintaining performance. Here is the complete code used for the submission. 
+## so the data was discretized into only "white" or "black" pixels, and increased performance times while
+## maintaining accuracy. Here is the complete code used for the submission. 
 
 
 # read in digits train data
