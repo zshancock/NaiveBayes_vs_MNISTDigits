@@ -34,8 +34,8 @@ try(library(e1071), silent = TRUE)
 
 random_list <- sample(1:dim(digits)[1])
 
-digits.a <- nb.digits.train[random_list[1:33600],]
-digits.b <- nb.digits.train[random_list[33601:42000],]
+digits.a <- digits[random_list[1:33600],]
+digits.b <- digits[random_list[33601:42000],]
 
 # build a Naive Bayes - e1071 model
 
