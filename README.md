@@ -1,18 +1,14 @@
 R Practice
 ==============
 ##### Author - Zac Hancock (zshancock@gmail.com)
+ 
+#### *Naive Bayes in R vs. MNIST Digits*
 
-Some of my R exercises from coursework in the Applied Data Science master's program at Syracuse. 
-I used RStudio Version 1.1.383 with R version 3.4.3.
+Naive Bayes model implementation in RStudio. My attempt to increase processing time on my local machine was to set all the pixel values
+to either (0,1) instead of a range 0 through 255. Accuracy did not suffer (compared to other Naive Bayes models I ran), and my local machine did process the data faster (trained quicker, etc). Anyone with experience in R or with the Digits data (kaggle - MNIST digits competition) should be able to follow my code with ease. 
 
-**Summary of Contents:**
+>The digits data contains handwritten characters with each pixels "intensity" value, between 0-255. The goal of the competition
+>is to create a model that can predict the "Label" (the number 0-9) using the pixel values as inputs. 
+>https://www.kaggle.com/c/digit-recognizer
 
-*Introduction to RStudio - IST 687 Coursework*
->Progression of skills in data manipulation, data frame creation, creating functions and ggplot. Most of the datasets 
->used were public or built into R. 
-
-*Naive Bayes machine learning*
->Kaggle competition "Digit Recognizer" was entered while learning Naive Bayes. I wanted to apply new skills to subject matter
->outside the coursework. The competition submission scored 83-84% accuracy, which is fairly low, but I did not use a Neural 
->Network, and only used Naive Bayes. 
  
