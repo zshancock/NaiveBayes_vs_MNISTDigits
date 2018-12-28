@@ -3,11 +3,12 @@
 ## The submission data set contained 28,000 rows with 784 (does not include label)
 
 ## Rows represented a single pixel in an image of a handwritten number, with a value of 0-255
-## Value of 0 meant pixel was very white, and 255 was very dark. 
+## Value of 0 meant pixel was very dark, and 255 was very white. 
 
 ## Data was originally analyzed with all 0-255 analyzed as factors, but the model was very slow in processing,
 ## so the data was discretized into only "white" or "black" pixels, and increased performance times while
 ## maintaining accuracy. Here is the complete code used for the submission. 
+## I prefer the inverse of dark/white for clarity (so I discretized into whiter pixels -> 1=black for example.)
 
 
 # read in digits train data
@@ -16,6 +17,7 @@ digits <- read.csv("train.csv")
 digits$label <- as.factor(digits$label) # target as factor
 
 # make function for discretizing variables, 0 = white, 1= black
+## I prefer the inverse of dark/white for clarity (so I discretized into whiter pixels -> 1=black for example.)
 
 cut_func <- function(x){
   cut(x, breaks = c(-1,127,256), 
