@@ -9,7 +9,8 @@ My submission scored a 83.3% accuracy on the test.csv (all unknowns). This is pr
 
 >Quick background ~
 >The digits data contains handwritten characters with each pixels "intensity" value, between 0-255. The goal of the competition
->is to create a model that can predict the "Label" (the number 0-9) using the pixel values as inputs. 
+>is to create a model that can predict the "Label" (the number 0-9) using the pixel values as inputs. This project does not contain the 
+>training and testing .csv files, but they can be found at the competition location on Kaggle.
 >https://www.kaggle.com/c/digit-recognizer
 
  
