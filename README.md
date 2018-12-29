@@ -20,4 +20,4 @@ My submission scored a 83.3% accuracy on the test.csv (all unknowns). This is pr
  and 0-127 to 0 (white) really increased performance on my local machine. The below figure illustrates the preprocessing step, and 
  frankly the method seems to show minimal data loss in *most* cases. 
  
-![alt text](https://raw.githubusercontent.com/zshancock/NaiveBayes_vsMNISTDigits/master/graphic/preprocessing.jpeg)
+![alt text](https://raw.githubusercontent.com/zshancock/NaiveBayes_vsMNISTDigits/master/graphic/preprocessing.png)
