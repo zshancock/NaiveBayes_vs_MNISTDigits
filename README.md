@@ -15,7 +15,7 @@ My submission scored a 83.3% accuracy on the test.csv (all unknowns). This is pr
 >https://www.kaggle.com/c/digit-recognizer
 
  
- #### *Why is my Naive Bayes different?"*
+ #### *Why is my Naive Bayes different?*
  The model itself is pretty straight-forward, however the preprocessing step wherein I change all pixel values 127-255 to 1 (black), 
  and 0-127 to 0 (white) really increased performance on my local machine. The below figure illustrates the preprocessing step, and 
  frankly the method seems to show minimal data loss in *most* cases. 
